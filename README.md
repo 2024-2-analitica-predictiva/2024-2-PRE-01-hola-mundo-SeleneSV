@@ -10,10 +10,10 @@ source setup.sh
 
 # Configuración en Windows
 
-Ejecute los siguientes comandos en el terminal:
+Ejecute los siguientes comandos en el terminal (debe ser con cmd no funciona con powershell):
 
 ```bash
-python3 -m venv .venv
+python -m venv .venv
 .venv\Scripts\activate
 setup
 ```
